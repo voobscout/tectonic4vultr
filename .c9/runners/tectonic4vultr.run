@@ -1,6 +1,5 @@
 {
-  "cmd": ["bash", "-l", "-c", "source /usr/local/rvm/scripts/rvm && rvm use ruby-2.4.0@gsm-port  >/dev/null 2>&1; bundle && bundle exec ruby", "$file", "-p 8080 -o 0.0.0.0"],
-   "working_dir": "$project_path",
+  "cmd": ["bash", "-l", "-c", "source /usr/local/rvm/scripts/rvm && cd ~/workspace && rvm use ruby-2.4.0@gsm-port  >/dev/null 2>&1; bundle && bundle exec ruby", "$file", "-p 8080 -o 0.0.0.0"],
   "selector": "tectonic.rb",
   "info": "$url is up"
 }
